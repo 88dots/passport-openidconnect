@@ -22,7 +22,7 @@
     "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
   },
   "dependencies": {
-    "oauth": "^0.9.15",
+    "oauth": "github:stevelacy/node-oauth#9de32fc6179c2554a4891eeadd7f7d14b8120710",
     "passport-strategy": "^1.0.0",
     "request": "^2.88.0",
     "webfinger": "^0.4.2"
